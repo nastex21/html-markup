@@ -1,0 +1,64 @@
+body {
+  background-color: #d1e735;
+}
+#root {
+  width: 95%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Header {
+  margin-top: 10px;
+}
+.LeftHalf {
+  background-color: #000;
+  width: 50%;
+  height: 99%;
+  float: left;
+  text-align: right;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.LeftHalf > h1 {
+  position: relative;
+  color: #fff;
+  right: 1%;
+}
+.RightHalf {
+  background-color: #ebeded;
+  width: 50%;
+  height: 100%;
+  float: right;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.RightHalf > h1 {
+  position: relative;
+  width: 99%;
+  left: 1%;
+}
+.InputApp {
+  position: relative;
+  float: left;
+  width: 50%;
+  min-height: 300px;
+  overflow: auto;
+  overflow-y: hidden;
+}
+.InputApp > * {
+  margin-left: 10px;
+}
+.Output {
+  float: right;
+  width: 50%;
+  background-color: #ebeded;
+}
+.Output > * {
+  margin-left: 10px;
+}
+textarea {
+  width: 50%;
+  background-color: #e4e4e1;
+}

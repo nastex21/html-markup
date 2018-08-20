@@ -1,0 +1,67 @@
+body 
+    background-color rgb(209,231,53)
+
+centerer()
+  position absolute
+  top 50%
+  left 50%
+  transform translate(-50%, -50%)
+
+#root 
+    width 95%
+    height 100%
+    centerer()
+
+.Header
+    margin-top 10%px
+
+.LeftHalf
+    background-color black
+    width 50%
+    height 99%
+    float left
+    text-align right
+    border-top-left-radius 20px
+    border-bottom-left-radius 20px
+
+.LeftHalf > h1 
+    position relative
+    color white
+    right 1%
+
+.RightHalf
+    background-color #EBEDED
+    width 50%
+    height 100%
+    float right
+    border-top-right-radius 20px
+    border-bottom-right-radius 20px
+
+.RightHalf > h1 
+    position relative
+    width 99%
+    left 1%
+
+.InputApp
+    position relative
+    float left
+    width 50%
+    min-height 300px
+    overflow auto
+    overflow-y hidden
+
+.InputApp > *
+    margin-left 10px
+
+.Output
+    float right
+    width 50%
+    background-color #EBEDED
+
+.Output > *
+    margin-left 10px
+
+textarea
+    width 50%
+    background-color rgb(228,228,225)
+

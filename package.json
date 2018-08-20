@@ -1,0 +1,20 @@
+{
+  "name": "markup",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://myname.github.io/myapp",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-markdown": "^3.1.3",
+    "react-scripts": "^1.1.4",
+    "remarkable": "^1.7.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
